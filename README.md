@@ -1,2 +1,3 @@
-# SimpleSpreadsheet
-The interviewing project of EPAM (亿磐系统（深圳）有限公司).
+Please read the "Task - Simple Spreadsheet v1.1.docx" and "Tips for the coding.docx" for comprehending the examination.
+
+Wish the interviewees could pass the interview!
