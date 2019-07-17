@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimpleSpreadsheet.CommandBase">
+    <Position X="3.75" Y="1" Width="2" />
+    <AssociationLine Name="Successor" Type="SimpleSpreadsheet.CommandBase">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.018" Y="0.335" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAQAAAgABEAAAAAAAAAECAEAAAABQQE=</HashCode>
+      <FileName>CommandBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Successor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SimpleSpreadsheet.CreateCommand">
+    <Position X="0.75" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQAAAAAAAQCAAAABEIAAAAAIEAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreateCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleSpreadsheet.NumberCommand">
+    <Position X="3.75" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAQAAAAABEAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NumberCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleSpreadsheet.SumCommand">
+    <Position X="7.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAQAAAAABEAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SumCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleSpreadsheet.CommandDispatcher">
+    <Position X="4" Y="9.5" Width="2" />
+    <AssociationLine Name="MyCommand" Type="SimpleSpreadsheet.CommandBase">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.223" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAAAAAAACAAAABgAAAAAAAAAAgAAAJAAAA=</HashCode>
+      <FileName>CommandDispatcher.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MyCommand" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
